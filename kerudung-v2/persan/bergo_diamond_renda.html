@@ -38,7 +38,7 @@
       <ul href="#hoome">
         <li><a href="#">Home</a></li>
         <li><a href="https://www.instagram.com/trihijab07/" target="_blank">Instagram</a></li>
-        <li><a href="https://wa.me/62895371991271">WhatsAp</a></li>
+        <li><a href="https://wa.me/62895371991271">WhatsApp</a></li>
       </ul>
       <div class="menu">
         <input type="checkbox" />
@@ -128,6 +128,17 @@
             form.reset();
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+
+      const menu = document.querySelector(`.menu input`);
+      const nav = document.querySelector(`nav ul`);
+      const navv = document.querySelector(`nav ul li a `);
+      menu.addEventListener(`click`, function () {
+        nav.classList.toggle(`slide`);
+      });
+
+      navv.addEventListener(`click`, function () {
+        nav.classList.toggle(`slide`);
       });
     </script>
     <script src="../js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

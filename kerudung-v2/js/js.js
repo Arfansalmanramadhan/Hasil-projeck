@@ -18,7 +18,7 @@ function show() {
   }
   slide[index - 1].style.display = "block";
   dot[index - 1].className += "active";
-  setTimeout(show, 4000);
+  setTimeout(show, 2500);
 }
 
 let index1 = 0;
@@ -41,7 +41,7 @@ function show1() {
   }
   slides1[index1 - 1].style.display = "block";
   dots1[index1 - 1].className += "active";
-  setTimeout(show1, 3000);
+  setTimeout(show1, 2000);
 }
 let index2 = 0;
 show2();
@@ -63,7 +63,7 @@ function show2() {
   }
   slides2[index2 - 1].style.display = "block";
   dots2[index2 - 1].className += "active";
-  setTimeout(show2, 3000);
+  setTimeout(show2, 2000);
 }
 let index3 = 0;
 show3();
@@ -85,7 +85,7 @@ function show3() {
   }
   slides3[index3 - 1].style.display = "block";
   dots3[index3 - 1].className += "active";
-  setTimeout(show3, 3000);
+  setTimeout(show3, 2000);
 }
 let index4 = 0;
 show4();
@@ -107,7 +107,7 @@ function show4() {
   }
   slides4[index4 - 1].style.display = "block";
   dots4[index4 - 1].className += "active";
-  setTimeout(show4, 3000);
+  setTimeout(show4, 2000);
 }
 let index5 = 0;
 show5();
@@ -129,7 +129,7 @@ function show5() {
   }
   slides5[index5 - 1].style.display = "block";
   dots5[index5 - 1].className += "active";
-  setTimeout(show5, 3000);
+  setTimeout(show5, 2000);
 }
 let index6 = 0;
 show6();
@@ -151,7 +151,7 @@ function show6() {
   }
   slides6[index6 - 1].style.display = "block";
   dots6[index6 - 1].className += "active";
-  setTimeout(show6, 3000);
+  setTimeout(show6, 2000);
 }
 let index7 = 0;
 show7();
@@ -173,7 +173,7 @@ function show7() {
   }
   slides7[index7 - 1].style.display = "block";
   dots7[index7 - 1].className += "active";
-  setTimeout(show7, 3000);
+  setTimeout(show7, 2000);
 }
 let index8 = 0;
 show8();
@@ -195,7 +195,7 @@ function show8() {
   }
   slides8[index8 - 1].style.display = "block";
   dots8[index8 - 1].className += "active";
-  setTimeout(show8, 3000);
+  setTimeout(show8, 2000);
 }
 let index9 = 0;
 show9();
@@ -217,7 +217,7 @@ function show9() {
   }
   slides9[index9 - 1].style.display = "block";
   dots4[index9 - 1].className += "active";
-  setTimeout(show9, 3000);
+  setTimeout(show9, 2000);
 }
 let index10 = 0;
 show10();
@@ -239,7 +239,7 @@ function show10() {
   }
   slides10[index10 - 1].style.display = "block";
   dots10[index10 - 1].className += "active";
-  setTimeout(show10, 3000);
+  setTimeout(show10, 2000);
 }
 let index11 = 0;
 show11();
@@ -261,7 +261,7 @@ function show11() {
   }
   slides11[index11 - 1].style.display = "block";
   dots11[index11 - 1].className += "active";
-  setTimeout(show11, 3000);
+  setTimeout(show11, 2000);
 }
 let index12 = 0;
 show12();
@@ -283,7 +283,7 @@ function show12() {
   }
   slides12[index12 - 1].style.display = "block";
   dots12[index12 - 1].className += "active";
-  setTimeout(show12, 3000);
+  setTimeout(show12, 2000);
 }
 
 const menu = document.querySelector(`.menu input`);
